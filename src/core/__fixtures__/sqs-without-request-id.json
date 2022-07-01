@@ -1,0 +1,20 @@
+{
+    "Records": [
+        {
+            "messageId": "6d86b3cf-1a21-4e98-942e-f4c299649574",
+            "receiptHandle": "AQEB5OFE8P3Tq+SxI55fAAGRLy780akRCMwyIcho+ENqCWKatng/zlkVf0CAWoahwjhNPGQl1VgeH7Lz954qCkm4SBou64lOLVsWwCBlckGgKlSOTkWIAg0SzemX4tfj5Hvchzl2HNjDvwf5KOPv691TEq+PxpdU6Utk+XmN4SDRpoRjCLJwlLz9V/c1rTvnmSY/RKEk1WMNFC2jucwWgoSUCoXAVCSl0Py3pzYgQAbJOzV7eLRh1K76ASNM9cqhW8zidgB6Hqz+ffRbEopOn+ybB9UyamvcwPBDx9zSbk1AnjhHaShiGjKen8LF1OESq5QrablbNTSQjn1r7T1v3JJFsDQJg4diSSLVAc9kY/Fzo7cAjFV90K+muQClU4OU6wD+C5RAXbrXqc5UT7x/e1TPl9iOB9WOaC4nXtZF5QOXJCQ1qLdRn5Lr47eP/CwK6e3n9aZOQ/Z8VL9hs2o0B8CHSycv4fWnoR43Gi+IRBdPqKc=",
+            "body": "{\"type\":\"schedule-repeating-peaks\",\"payload\":{\"vppId\":\"integration-tests\",\"dayTS\":1589044240833,\"timezone\":\"UTC\"}}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "SentTimestamp": "1588957841501",
+                "SenderId": "AIDAJCMUUZUZYHXA2FUAY",
+                "ApproximateFirstReceiveTimestamp": "1588957841508"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "dff458d0b421455ba6e651b62dcdad8a",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:us-east-1:377766316057:peak-scheduler-resources-dev-SQSQueuePeakSchedulerRepeatingPeakIns-173NW71LONYRM",
+            "awsRegion": "us-east-1"
+        }
+    ]
+}

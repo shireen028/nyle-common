@@ -1,0 +1,22 @@
+{
+    "Records": [
+        {
+            "EventSource": "aws:sns",
+            "EventVersion": "1.0",
+            "EventSubscriptionArn": "arn:aws:sns:us-east-1:377766316057:peak-scheduler-resources-dev-SNSTopicPeakEvents-W0K3KWL0NZNH:be6a974e-d89f-4a6a-93e3-52e33bfbb581",
+            "Sns": {
+                "Type": "Notification",
+                "MessageId": "f089504f-eae2-5108-8156-05fd210ef075",
+                "TopicArn": "arn:aws:sns:us-east-1:377766316057:peak-scheduler-resources-dev-SNSTopicPeakEvents-W0K3KWL0NZNH",
+                "Subject": null,
+                "Message": "{\"source\":\"peak-scheduler\",\"stage\":\"dev\",\"type\":\"wec-baseline\",\"payload\":{\"vppId\":\"dev-vpp\",\"startTS\":1564002664364,\"lastModifiedBy\":\"unknown\",\"from\":\"pre-positioning\",\"to\":\"canceled\"},\"listener\":\"wec-baseline\", \"requestId\": \"sns-request-id\"}",
+                "Timestamp": "2019-07-24T21:12:12.515Z",
+                "SignatureVersion": "1",
+                "Signature": "rbUkW9UezvEM6cN7hZyK5hkb4E/2OVQe19/fHdVe4DE9JzQ1cauekscg3ggnb+HcsXupeSRxHltBiVazrZF/uyOHQIbXedh7n/rSxXhFpweccQm0O8sZwgxcFUIN9tCcaSCEyJtoK3UEi3fkDJ01s9JQM7Tp9jHWbvg3uF7ST6QBQPB+VJM0raacVXEdWVLdIbODs/Zt1krQEAwpQlkjXJ25bKDAqikkJXDmOVvC4aZoC0g+OrAt9OJOjnSt2n+tSBJ6b7LEnAuCXPDZfUNbF4ml3lYBbbHWVT7gKapFkiy2onrb0dkroHTbkMXNfcI2RUTlblQ3gQ9iAItO0kVygg==",
+                "SigningCertUrl": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-6aad65c2f9911b05cd53efda11f913f9.pem",
+                "UnsubscribeUrl": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:377766316057:peak-scheduler-resources-dev-SNSTopicPeakEvents-W0K3KWL0NZNH:be6a974e-d89f-4a6a-93e3-52e33bfbb581",
+                "MessageAttributes": {}
+            }
+        }
+    ]
+}

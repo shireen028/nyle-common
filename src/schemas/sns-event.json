@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "Records": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "Sns": {
+                        "type": "object",
+                        "properties": {
+                            "Message": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
