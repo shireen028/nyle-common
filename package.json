@@ -1,0 +1,32 @@
+{
+  "name": "nyle-common",
+  "version": "1.0.0",
+  "description": "collection of core utilities, shared accross Nyle Cloud Backend services",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test:unit": "LOG_LEVEL=SILENT MALLEABLE_REQUEST_CONTEXT=true jest",
+    "test:unit:debug": "LOG_LEVEL=SILENT MALLEABLE_REQUEST_CONTEXT=true node --inspect-brk ./node_modules/.bin/jest",
+    "test:integration": "MALLEABLE_REQUEST_CONTEXT=true jest --config integration-tests.config.js",
+    "version:bump": "node ./bin/version-bump.js",
+    "lint": "eslint src/"
+  },
+  "private": true,
+  "dependencies": {
+    "auth0": "^2.37.0",
+    "aws-xray-sdk": "^1.2.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "mysql": "^2.15.0",
+    "pg": "^8.7.1",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.263.1",
+    "eslint": "^8.1.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "jest": "^27.3.1",
+    "semver": "^5.4.1"
+  }
+}
